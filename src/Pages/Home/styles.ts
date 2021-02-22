@@ -10,7 +10,14 @@ export const Container = styled.div`
   background-size: 12rem; 
   align-items: center;
   justify-content: center;
-  
+  @media(max-width: 400px) {
+    background: transparent url(${logo}) no-repeat 1rem 1rem;
+    background-size: 6rem; 
+  }
+  @media(max-width: 800px) {
+    background: transparent url(${logo}) no-repeat 1rem 1rem;
+    background-size: 6rem; 
+  }   
 `;
 
 export const Content = styled.header`
@@ -24,6 +31,13 @@ export const Content = styled.header`
   a{
     width: 75%;
   }
+
+  @media(max-width: 400px) {
+    h1{
+      font-size: 1rem;
+    }
+  }  
+
 
 `
 
