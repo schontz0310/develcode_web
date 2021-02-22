@@ -1,46 +1,100 @@
-# Getting Started with Create React App
+<p align="center">
+<img src="https://github.com/schontz0310/develcode_web/blob/master/src/assets/LogoDevel.svg" width="150" height="150" align="center">
+</p>
+<h2 align="center">
+Develcode Challenge - Cadastro de Usúarios
+</h2>
+<h2 align="center">
+Back End
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/schontz0310/Challenges-Develcode?style=plastic">
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/schontz0310/Challenges-Develcode">
+  
+  <img alt="Typescript" src="https://badges.frapsoft.com/typescript/code/typescript.png?v=101">
+     
+</p>
 
-In the project directory, you can run:
+<p align="center">
 
-### `yarn start`
+  <a href="https://www.linkedin.com/in/eliverto-schontz-moraes/" target="_blank" >
+    <img alt="Linkedin - Eliverto" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>
+  
+  <a href="mailto:schontz0310@gmail.com" target="_blank" >
+    <img alt="Email - Eliverto" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :file_folder: Projeto
+  
+A  **[Develcode][Develcode_site]** Propos o desafio como segue abaixo:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+TESTE CADASTRO BÁSICO USUÁRIO
+Cadastro de usuários contendo os campos:
 
-### `yarn test`
+- Código
+- Nome
+- Data de nascimento
+- Foto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Alguns detalhes:
+- Serviços do backend deverão ser em node.js ou php ou java spring boot
+- Banco de dados postgresql ou mysql
+- Frontend: Android em Kotlin ou Java ou react native (gerando android) ou react (web) com tela de splash (react web não precisa tela de splash), listagem do cadastro com possibilidade de visualizar/incluir/editar o registro
+- Código deverá ser comitado no github e depois nos enviado para análise
+  
+## :pencil2:  Tecnologias
+  
+ Este projeto foi desenvolvido com as seguintes tecnologias:
 
-### `yarn build`
+- [TypeScript](https://github.com/Microsoft/TypeScript)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://github.com/expressjs/express)
+- [React](https://github.com/facebook/react)
+- [axios](https://github.com/axios/axios)
+- [Knex](http://knexjs.org/)
+- [Multer](https://www.npmjs.com/package/multer)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :paperclip: Tools
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Insomnia](https://insomnia.rest)
+- [Figma](https://www.figma.com/)
+- [Notion](https://www.notion.so/)
+  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :boom: Como Executar o Front End
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ### **Pré-requisitos**
+- 
+  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  
+1. Faça um clone do repositório:
 
-### `yarn eject`
+```sh
+  $ git clone https://github.com/schontz0310/develcode_web.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Executando a Aplicação:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  $ cd develcode_web
+  
+  # Instalando as dependências do projeto.
+  $ yarn # ou npm install
+  
+  # Inicie o projeto
+  $ yarn start # ou npm start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  # Usando o Front end
+  !! Não esqueça de deixar o back end rodando.
+ 
+```
 
-## Learn More
+Agora é realizar as operações de cadastro, edição e exclusão e ver se está tudo certo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Develcode_site]: https://www.develcode.com.br/
