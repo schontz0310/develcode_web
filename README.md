@@ -5,7 +5,7 @@
 Develcode Challenge - Cadastro de Usúarios
 </h2>
 <h2 align="center">
-Back End
+Front end
 </h2>
 
 <p align="center">
